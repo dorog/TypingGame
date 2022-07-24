@@ -1,0 +1,764 @@
+{
+	"wordMetas": [
+		{
+			"Value": "able",
+			"Complexity": 0
+		},
+		{
+			"Value": "about",
+			"Complexity": 0
+		},
+		{
+			"Value": "above",
+			"Complexity": 0
+		},
+		{
+			"Value": "access",
+			"Complexity": 0
+		},
+		{
+			"Value": "acid",
+			"Complexity": 0
+		},
+		{
+			"Value": "act",
+			"Complexity": 0
+		},
+		{
+			"Value": "add",
+			"Complexity": 0
+		},
+		{
+			"Value": "age",
+			"Complexity": 0
+		},
+		{
+			"Value": "air",
+			"Complexity": 0
+		},
+		{
+			"Value": "ask",
+			"Complexity": 0
+		},
+		{
+			"Value": "bell",
+			"Complexity": 0
+		},
+		{
+			"Value": "boy",
+			"Complexity": 0
+		},
+		{
+			"Value": "cell",
+			"Complexity": 0
+		},
+		{
+			"Value": "cool",
+			"Complexity": 0
+		},
+		{
+			"Value": "cry",
+			"Complexity": 0
+		},
+		{
+			"Value": "deny",
+			"Complexity": 0
+		},
+		{
+			"Value": "dig",
+			"Complexity": 0
+		},
+		{
+			"Value": "do",
+			"Complexity": 0
+		},
+		{
+			"Value": "ear",
+			"Complexity": 0
+		},
+		{
+			"Value": "eat",
+			"Complexity": 0
+		},
+		{
+			"Value": "edge",
+			"Complexity": 0
+		},
+		{
+			"Value": "else",
+			"Complexity": 0
+		},
+		{
+			"Value": "end",
+			"Complexity": 0
+		},
+		{
+			"Value": "entry",
+			"Complexity": 0
+		},
+		{
+			"Value": "file",
+			"Complexity": 0
+		},
+		{
+			"Value": "gas",
+			"Complexity": 0
+		},
+		{
+			"Value": "give",
+			"Complexity": 0
+		},
+		{
+			"Value": "heat",
+			"Complexity": 0
+		},
+		{
+			"Value": "ice",
+			"Complexity": 0
+		},
+		{
+			"Value": "jet",
+			"Complexity": 0
+		},
+		{
+			"Value": "abroad",
+			"Complexity": 1
+		},
+		{
+			"Value": "abuse",
+			"Complexity": 1
+		},
+		{
+			"Value": "actually",
+			"Complexity": 1
+		},
+		{
+			"Value": "advice",
+			"Complexity": 1
+		},
+		{
+			"Value": "already",
+			"Complexity": 1
+		},
+		{
+			"Value": "anymore",
+			"Complexity": 1
+		},
+		{
+			"Value": "assault",
+			"Complexity": 1
+		},
+		{
+			"Value": "balance",
+			"Complexity": 1
+		},
+		{
+			"Value": "basket",
+			"Complexity": 1
+		},
+		{
+			"Value": "before",
+			"Complexity": 1
+		},
+		{
+			"Value": "between",
+			"Complexity": 1
+		},
+		{
+			"Value": "blood",
+			"Complexity": 1
+		},
+		{
+			"Value": "branch",
+			"Complexity": 1
+		},
+		{
+			"Value": "button",
+			"Complexity": 1
+		},
+		{
+			"Value": "cancer",
+			"Complexity": 1
+		},
+		{
+			"Value": "center",
+			"Complexity": 1
+		},
+		{
+			"Value": "cheese",
+			"Complexity": 1
+		},
+		{
+			"Value": "classic",
+			"Complexity": 1
+		},
+		{
+			"Value": "define",
+			"Complexity": 1
+		},
+		{
+			"Value": "digital",
+			"Complexity": 1
+		},
+		{
+			"Value": "earth",
+			"Complexity": 1
+		},
+		{
+			"Value": "empty",
+			"Complexity": 1
+		},
+		{
+			"Value": "feature",
+			"Complexity": 1
+		},
+		{
+			"Value": "finally",
+			"Complexity": 1
+		},
+		{
+			"Value": "ghost",
+			"Complexity": 1
+		},
+		{
+			"Value": "great",
+			"Complexity": 1
+		},
+		{
+			"Value": "heaven",
+			"Complexity": 1
+		},
+		{
+			"Value": "holiday",
+			"Complexity": 1
+		},
+		{
+			"Value": "hundred",
+			"Complexity": 1
+		},
+		{
+			"Value": "impact",
+			"Complexity": 1
+		},
+		{
+			"Value": "indeed",
+			"Complexity": 1
+		},
+		{
+			"Value": "inside",
+			"Complexity": 1
+		},
+		{
+			"Value": "item",
+			"Complexity": 1
+		},
+		{
+			"Value": "label",
+			"Complexity": 1
+		},
+		{
+			"Value": "length",
+			"Complexity": 1
+		},
+		{
+			"Value": "likely",
+			"Complexity": 1
+		},
+		{
+			"Value": "lower",
+			"Complexity": 1
+		},
+		{
+			"Value": "margin",
+			"Complexity": 1
+		},
+		{
+			"Value": "material",
+			"Complexity": 1
+		},
+		{
+			"Value": "medical",
+			"Complexity": 1
+		},
+		{
+			"Value": "network",
+			"Complexity": 1
+		},
+		{
+			"Value": "nothing",
+			"Complexity": 1
+		},
+		{
+			"Value": "object",
+			"Complexity": 1
+		},
+		{
+			"Value": "ocean",
+			"Complexity": 1
+		},
+		{
+			"Value": "option",
+			"Complexity": 1
+		},
+		{
+			"Value": "original",
+			"Complexity": 1
+		},
+		{
+			"Value": "owner",
+			"Complexity": 1
+		},
+		{
+			"Value": "patch",
+			"Complexity": 1
+		},
+		{
+			"Value": "penalty",
+			"Complexity": 1
+		},
+		{
+			"Value": "picture",
+			"Complexity": 1
+		},
+		{
+			"Value": "planning",
+			"Complexity": 1
+		},
+		{
+			"Value": "platform",
+			"Complexity": 1
+		},
+		{
+			"Value": "pocket",
+			"Complexity": 1
+		},
+		{
+			"Value": "position",
+			"Complexity": 1
+		},
+		{
+			"Value": "present",
+			"Complexity": 1
+		},
+		{
+			"Value": "private",
+			"Complexity": 1
+		},
+		{
+			"Value": "profile",
+			"Complexity": 1
+		},
+		{
+			"Value": "provide",
+			"Complexity": 1
+		},
+		{
+			"Value": "quality",
+			"Complexity": 1
+		},
+		{
+			"Value": "rapid",
+			"Complexity": 1
+		},
+		{
+			"Value": "abandon",
+			"Complexity": 2
+		},
+		{
+			"Value": "abortion",
+			"Complexity": 2
+		},
+		{
+			"Value": "accompany",
+			"Complexity": 2
+		},
+		{
+			"Value": "according",
+			"Complexity": 2
+		},
+		{
+			"Value": "acknowledge",
+			"Complexity": 2
+		},
+		{
+			"Value": "adjustment",
+			"Complexity": 2
+		},
+		{
+			"Value": "advanced",
+			"Complexity": 2
+		},
+		{
+			"Value": "adventure",
+			"Complexity": 2
+		},
+		{
+			"Value": "afford",
+			"Complexity": 2
+		},
+		{
+			"Value": "against",
+			"Complexity": 2
+		},
+		{
+			"Value": "agreement",
+			"Complexity": 2
+		},
+		{
+			"Value": "aircraft",
+			"Complexity": 2
+		},
+		{
+			"Value": "alternative",
+			"Complexity": 2
+		},
+		{
+			"Value": "beautiful",
+			"Complexity": 2
+		},
+		{
+			"Value": "biological",
+			"Complexity": 2
+		},
+		{
+			"Value": "bombing",
+			"Complexity": 2
+		},
+		{
+			"Value": "boyfriend",
+			"Complexity": 2
+		},
+		{
+			"Value": "breakfast",
+			"Complexity": 2
+		},
+		{
+			"Value": "building",
+			"Complexity": 2
+		},
+		{
+			"Value": "calculate",
+			"Complexity": 2
+		},
+		{
+			"Value": "campaign",
+			"Complexity": 2
+		},
+		{
+			"Value": "celebration",
+			"Complexity": 2
+		},
+		{
+			"Value": "ceremony",
+			"Complexity": 2
+		},
+		{
+			"Value": "championship",
+			"Complexity": 2
+		},
+		{
+			"Value": "character",
+			"Complexity": 2
+		},
+		{
+			"Value": "circumstance",
+			"Complexity": 2
+		},
+		{
+			"Value": "classroom",
+			"Complexity": 2
+		},
+		{
+			"Value": "competition",
+			"Complexity": 2
+		},
+		{
+			"Value": "decrease",
+			"Complexity": 2
+		},
+		{
+			"Value": "defensive",
+			"Complexity": 2
+		},
+		{
+			"Value": "department",
+			"Complexity": 2
+		},
+		{
+			"Value": "description",
+			"Complexity": 2
+		},
+		{
+			"Value": "difference",
+			"Complexity": 2
+		},
+		{
+			"Value": "direction",
+			"Complexity": 2
+		},
+		{
+			"Value": "discrimination",
+			"Complexity": 2
+		},
+		{
+			"Value": "document",
+			"Complexity": 2
+		},
+		{
+			"Value": "educate",
+			"Complexity": 2
+		},
+		{
+			"Value": "efficient",
+			"Complexity": 2
+		},
+		{
+			"Value": "emergency",
+			"Complexity": 2
+		},
+		{
+			"Value": "employment",
+			"Complexity": 2
+		},
+		{
+			"Value": "engineering",
+			"Complexity": 2
+		},
+		{
+			"Value": "establishment",
+			"Complexity": 2
+		},
+		{
+			"Value": "following",
+			"Complexity": 2
+		},
+		{
+			"Value": "formation",
+			"Complexity": 2
+		},
+		{
+			"Value": "framework",
+			"Complexity": 2
+		},
+		{
+			"Value": "frequency",
+			"Complexity": 2
+		},
+		{
+			"Value": "function",
+			"Complexity": 2
+		},
+		{
+			"Value": "fundamental",
+			"Complexity": 2
+		},
+		{
+			"Value": "furthermore",
+			"Complexity": 2
+		},
+		{
+			"Value": "generate",
+			"Complexity": 2
+		},
+		{
+			"Value": "girlfriend",
+			"Complexity": 2
+		},
+		{
+			"Value": "government",
+			"Complexity": 2
+		},
+		{
+			"Value": "guarantee",
+			"Complexity": 2
+		},
+		{
+			"Value": "guideline",
+			"Complexity": 2
+		},
+		{
+			"Value": "headquarters",
+			"Complexity": 2
+		},
+		{
+			"Value": "important",
+			"Complexity": 2
+		},
+		{
+			"Value": "impressive",
+			"Complexity": 2
+		},
+		{
+			"Value": "increased",
+			"Complexity": 2
+		},
+		{
+			"Value": "independent",
+			"Complexity": 2
+		},
+		{
+			"Value": "instruction",
+			"Complexity": 2
+		},
+		{
+			"Value": "knowledge",
+			"Complexity": 2
+		},
+		{
+			"Value": "landscape",
+			"Complexity": 2
+		},
+		{
+			"Value": "leadership",
+			"Complexity": 2
+		},
+		{
+			"Value": "learning",
+			"Complexity": 2
+		},
+		{
+			"Value": "literature",
+			"Complexity": 2
+		},
+		{
+			"Value": "management",
+			"Complexity": 2
+		},
+		{
+			"Value": "manufacturing",
+			"Complexity": 2
+		},
+		{
+			"Value": "measurement",
+			"Complexity": 2
+		},
+		{
+			"Value": "membership",
+			"Complexity": 2
+		},
+		{
+			"Value": "moderate",
+			"Complexity": 2
+		},
+		{
+			"Value": "motivation",
+			"Complexity": 2
+		},
+		{
+			"Value": "movement",
+			"Complexity": 2
+		},
+		{
+			"Value": "museum",
+			"Complexity": 2
+		},
+		{
+			"Value": "neighborhood",
+			"Complexity": 2
+		},
+		{
+			"Value": "offensive",
+			"Complexity": 2
+		},
+		{
+			"Value": "opportunity",
+			"Complexity": 2
+		},
+		{
+			"Value": "organization",
+			"Complexity": 2
+		},
+		{
+			"Value": "participate",
+			"Complexity": 2
+		},
+		{
+			"Value": "percentage",
+			"Complexity": 2
+		},
+		{
+			"Value": "performance",
+			"Complexity": 2
+		},
+		{
+			"Value": "permission",
+			"Complexity": 2
+		},
+		{
+			"Value": "photographer",
+			"Complexity": 2
+		},
+		{
+			"Value": "population",
+			"Complexity": 2
+		},
+		{
+			"Value": "professional",
+			"Complexity": 2
+		},
+		{
+			"Value": "quarterback",
+			"Complexity": 2
+		},
+		{
+			"Value": "reasonable",
+			"Complexity": 2
+		},
+		{
+			"Value": "recognition",
+			"Complexity": 2
+		},
+		{
+			"Value": "recommendation",
+			"Complexity": 2
+		},
+		{
+			"Value": "relationship",
+			"Complexity": 2
+		},
+		{
+			"Value": "representation",
+			"Complexity": 2
+		},
+		{
+			"Value": "schedule",
+			"Complexity": 2
+		},
+		{
+			"Value": "selection",
+			"Complexity": 2
+		},
+		{
+			"Value": "significant",
+			"Complexity": 2
+		},
+		{
+			"Value": "sophisticated",
+			"Complexity": 2
+		},
+		{
+			"Value": "specialist",
+			"Complexity": 2
+		},
+		{
+			"Value": "statement",
+			"Complexity": 2
+		},
+		{
+			"Value": "statistics",
+			"Complexity": 2
+		},
+		{
+			"Value": "subsequent",
+			"Complexity": 2
+		},
+		{
+			"Value": "successful",
+			"Complexity": 2
+		},
+		{
+			"Value": "suggestion",
+			"Complexity": 2
+		}
+	]
+}

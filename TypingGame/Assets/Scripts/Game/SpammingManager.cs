@@ -21,45 +21,33 @@ public class SpammingManager : MonoBehaviour
     private int _diedWords = 0;
     private readonly List<Word> _spammedWords = new();
 
-    private readonly WordMeta[] availableWordMetas = new WordMeta[]
+    private readonly Dictionary<Complexity, List<WordMeta>> _allWords = new()
     {
-        new WordMeta() { Value = "abandon", Complexity = Complexity.easy },
-        new WordMeta() { Value = "ability", Complexity = Complexity.easy },
-        new WordMeta() { Value = "able", Complexity = Complexity.easy },
-        new WordMeta() { Value = "abortion", Complexity = Complexity.easy },
-        new WordMeta() { Value = "about", Complexity = Complexity.easy },
-        new WordMeta() { Value = "above", Complexity = Complexity.easy },
-        new WordMeta() { Value = "abroad", Complexity = Complexity.easy },
-        new WordMeta() { Value = "absence", Complexity = Complexity.easy },
-        new WordMeta() { Value = "absolute", Complexity = Complexity.easy },
-        new WordMeta() { Value = "absolutely", Complexity = Complexity.easy },
-        new WordMeta() { Value = "absorb", Complexity = Complexity.easy },
-        new WordMeta() { Value = "abuse", Complexity = Complexity.easy },
-        new WordMeta() { Value = "academic", Complexity = Complexity.easy },
-        new WordMeta() { Value = "accept", Complexity = Complexity.easy },
-        new WordMeta() { Value = "access", Complexity = Complexity.easy },
-        new WordMeta() { Value = "accident", Complexity = Complexity.easy },
-        new WordMeta() { Value = "accompany", Complexity = Complexity.easy },
-        new WordMeta() { Value = "accomplish", Complexity = Complexity.easy },
-        new WordMeta() { Value = "according", Complexity = Complexity.easy },
-        new WordMeta() { Value = "account", Complexity = Complexity.easy },
-        new WordMeta() { Value = "accurate", Complexity = Complexity.easy },
-        new WordMeta() { Value = "accuse", Complexity = Complexity.easy },
-        new WordMeta() { Value = "achieve", Complexity = Complexity.easy },
-        new WordMeta() { Value = "achievement", Complexity = Complexity.easy },
-        new WordMeta() { Value = "acid", Complexity = Complexity.easy },
-        new WordMeta() { Value = "acknowledge", Complexity = Complexity.easy },
-        new WordMeta() { Value = "acquire", Complexity = Complexity.easy },
-        new WordMeta() { Value = "across", Complexity = Complexity.easy },
-        new WordMeta() { Value = "act", Complexity = Complexity.easy },
-        new WordMeta() { Value = "action", Complexity = Complexity.easy }
+        { Complexity.easy, new List<WordMeta>() },
+        { Complexity.medium, new List<WordMeta>() },
+        { Complexity.hard, new List<WordMeta>() }
     };
+
+    private List<WordMeta> _availableWordMetas;
 
     private void Awake()
     {
         _wordGameObjectWidth = ((RectTransform)word.transform).rect.width;
 
         stateManager.SubscribeToGameStartAction(StartGame);
+
+        InitWords();
+    }
+
+    private void InitWords()
+    {
+        TextAsset wordsJson = Resources.Load<TextAsset>("eng_words");
+
+        LanguageWords languageWords = JsonUtility.FromJson<LanguageWords>(wordsJson.text);
+        foreach (var wordMeta in languageWords.wordMetas)
+        {
+            _allWords[wordMeta.Complexity].Add(wordMeta);
+        }
     }
 
     public void SetGameSettings(GameSetting gameSetting)
@@ -70,6 +58,7 @@ public class SpammingManager : MonoBehaviour
     private void StartGame()
     {
         _remainingWords = _gameSetting.MaxWords;
+        _availableWordMetas = _allWords[_gameSetting.Complexity];
         _diedWords = 0;
 
         Invoke(nameof(SpamWord), 0);
@@ -107,8 +96,8 @@ public class SpammingManager : MonoBehaviour
 
     private WordMeta SelectWord()
     {
-        int randomWordMetaIndex = Random.Range(0, availableWordMetas.Length);
-        return availableWordMetas[randomWordMetaIndex];
+        int randomWordMetaIndex = Random.Range(0, _availableWordMetas.Count);
+        return _availableWordMetas[randomWordMetaIndex];
     }
 
     private void PrepareForNextSpamming()
