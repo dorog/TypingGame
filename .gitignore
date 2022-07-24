@@ -58,3 +58,12 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+TypingGame/.vsconfig
+TypingGame/Assets/TextMesh Pro
+TypingGame/Library
+TypingGame/Logs
+TypingGame/obj
+TypingGame/Packages
+TypingGame/ProjectSettings
+TypingGame/Temp
+TypingGame/UserSettings
