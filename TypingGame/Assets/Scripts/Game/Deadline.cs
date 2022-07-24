@@ -2,8 +2,10 @@ using UnityEngine;
 
 public class Deadline : MonoBehaviour
 {
-    public BoxCollider2D boxCollider;
-    public SpammingManager spammingManager;
+    [SerializeField]
+    private BoxCollider2D boxCollider;
+    [SerializeField]
+    private SpammingManager spammingManager;
 
     private void OnEnable()
     {
@@ -14,7 +16,7 @@ public class Deadline : MonoBehaviour
     {
         if(collision.TryGetComponent<Word>(out var word))
         {
-            spammingManager.Remove(word);
+            spammingManager.Delete(word);
         }
     }
 }

@@ -8,7 +8,15 @@ public class TypingManager : MonoBehaviour
     [SerializeField]
     private TMP_InputField typingField;
 
-    private void OnEnable()
+    [SerializeField]
+    private StateManager stateManager;
+
+    private void Awake()
+    {
+        stateManager.SubscribeToGameStartAction(StartGame);
+    }
+
+    private void StartGame()
     {
         typingField.ActivateInputField();
     }

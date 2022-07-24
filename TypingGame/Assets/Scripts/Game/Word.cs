@@ -11,10 +11,10 @@ public class Word : MonoBehaviour
     [SerializeField]
     private TMP_Text valueText;
 
-    public void Init(WordMeta word)
+    public void Init(WordMeta word, float speed)
     {
         _value = word.Value;
-        _speed = Random.Range(word.MinSpeed, word.MaxSpeed);
+        _speed = speed;
 
         valueText.text = word.Value;
     }
