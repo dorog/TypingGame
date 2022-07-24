@@ -14,7 +14,7 @@ public class GameMode : MonoBehaviour
     {
         descriptionText.text = $"({gameSetting.MaxWords} words, " +  
                                 $"{gameSetting.MinTimeBetweenSpawns}-{ gameSetting.MaxTimeBetweenSpawns} s/spawn, " +
-                                $"{gameSetting.MinSpeed}-{gameSetting.MaxSpeed} px/s";
+                                $"{gameSetting.MinSpeed}-{gameSetting.MaxSpeed} px/s)";
     }
 
     public void StartGame()
