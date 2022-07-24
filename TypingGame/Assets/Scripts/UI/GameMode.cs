@@ -12,9 +12,9 @@ public class GameMode : MonoBehaviour
 
     private void Awake()
     {
-        descriptionText.text = $"({gameSetting.MaxWords} words, " +
-            $"{gameSetting.MinSpeed}-{gameSetting.MaxSpeed} s/spawn, " +
-            $"{gameSetting.MinTimeBetweenSpawns}-{gameSetting.MaxTimeBetweenSpawns} px/s";
+        descriptionText.text = $"({gameSetting.MaxWords} words, " +  
+                                $"{gameSetting.MinTimeBetweenSpawns}-{ gameSetting.MaxTimeBetweenSpawns} s/spawn, " +
+                                $"{gameSetting.MinSpeed}-{gameSetting.MaxSpeed} px/s";
     }
 
     public void StartGame()
